@@ -3,7 +3,7 @@
 $host = "localhost";
 $username = "root";  // Cambia a tu usuario de base de datos
 $password = "posgrado123";      // Cambia a tu contraseña de base de datos
-$dbname = "importar_alumnos";
+$dbname = "gakko_kanri";
 
 // Establecer conexión con la base de datos
 $conn = new mysqli($host, $username, $password, $dbname);
