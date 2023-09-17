@@ -24,7 +24,7 @@ $celular = $_POST['celular'];
 $fecha_de_nacimiento = $_POST['fecha_de_nacimiento'];
 
 // Insertar datos en la tabla
-$sql = "INSERT INTO Alumnos (Matricula, Nombre, ApellidoPaterno, ApellidoMaterno, Grupo, Email, Celular, FechaNacimiento) VALUES ('$matricula', '$nombre', '$apellido_paterno', '$apellido_materno', '$grupo', '$email', '$celular', '$fecha_de_nacimiento')";
+$sql = "INSERT INTO alumnos (Matricula, Nombre, ApellidoPaterno, ApellidoMaterno, Grupo, Email, Celular, FechaNacimiento) VALUES ('$matricula', '$nombre', '$apellido_paterno', '$apellido_materno', '$grupo', '$email', '$celular', '$fecha_de_nacimiento')";
 
 if ($conn->query($sql) === TRUE) {
     echo "Nuevo registro creado exitosamente.";
